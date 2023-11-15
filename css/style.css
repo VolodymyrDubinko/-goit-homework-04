@@ -1,0 +1,347 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.button-hero {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 169px;
+    border-radius: 4px;
+    background-color:#4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    border: transparent;    
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body{
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+.list-benefits {
+    display: flex;
+    gap: 24px;
+}
+.list-header {
+    display: flex;
+    gap: 40px;
+}
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+    background-color:#FFF;
+}
+
+.logotype {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+
+.header-logo {
+margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-span-header {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-div {
+    display: flex;
+}
+.header-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #2E2F42;
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.address-header {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    color:#434455;
+}
+.address-header:hover,
+.address-header:focus {
+color: #404BBF;
+}
+.address{
+    font-style: normal;
+}
+
+
+.section-hero{
+    background-color:#2e2f42;
+    padding: 188px 0;
+}
+
+.hero-title{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:#FFF;
+}
+.business-title {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.section-hero button {
+    background-color:#4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+
+button:hover,
+button:focus {
+    background-color: #404BBF;
+}
+
+.ist-benefits {
+    display: flex;
+}
+
+.strategy {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color:#2E2F42;
+}
+.description {
+    font-family: Roboto;
+    font-size: 0.8;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.description-futures {
+    width: 264px;
+}
+
+
+.section-team{
+    background-color: #F4F4FD;
+}
+
+.list-team {
+    display: flex;
+    gap: 24px;
+}
+.div-team {
+    padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+}
+.team {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2E2F42;
+    padding-bottom: 72px;
+    margin-bottom: 72px;
+}
+
+.team-itam {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-subtitle {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+.p-section-team {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 0.8;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+
+.portfolio {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    padding-bottom: 72px;
+    margin-bottom: 72px;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid  #E7E9FC;
+    background-color:  #FFF;
+    border-top: 0;
+}
+.footer{
+    background-color:#2e2f42;
+    padding: 100px 0;
+}
+.logotype {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5
+}
+.logo-span-footer{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.footer-p {
+    font-family: Roboto;
+    font-size: 0.8;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+    width: 264px;
+}
