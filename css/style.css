@@ -162,6 +162,8 @@ color: #404BBF;
 .section-hero{
     background-color:#2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/images3/people-office\ 1.jpg);
+    background-size: cover;
 }
 
 .hero-title{
