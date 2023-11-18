@@ -167,9 +167,9 @@ color: #404BBF;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images3/people-office\ 1.jpg);
     background-size: cover;
-    
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
     
 }
 
@@ -206,10 +206,18 @@ button:focus {
     background-color: #404BBF;
 }
 
-.ist-benefits {
+.list-benefits {
     display: flex;
 }
-
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .strategy {
     font-family: Roboto;
     font-size: 20px;
