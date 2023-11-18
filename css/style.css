@@ -91,6 +91,9 @@ background-color: #FFFFFF;
 .page-header {
     border-bottom: 1px solid #E7E9FC;
     background-color:#FFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logotype {
@@ -162,8 +165,12 @@ color: #404BBF;
 .section-hero{
     background-color:#2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/images3/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images3/people-office\ 1.jpg);
     background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .hero-title{
@@ -190,6 +197,7 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
