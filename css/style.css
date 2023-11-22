@@ -471,7 +471,10 @@ button:focus {
     justify-content: center;
     
 }
-.media-svg-f
+.media-svg {
+    width: 24;
+    height: 24;
+}
 
 .footer-p {
     font-family: Roboto;
