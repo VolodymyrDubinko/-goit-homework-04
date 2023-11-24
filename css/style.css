@@ -51,10 +51,6 @@ button{
     justify-content: space-between;
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 
 
@@ -113,6 +109,7 @@ margin-right: 76px;
 }
 .list {
     list-style-type: none;
+    justify-content: center;
 }
 .list-header {
     display: flex;
@@ -121,6 +118,7 @@ margin-right: 76px;
 .link {
     text-decoration: none;
 }
+
 .header-link {
     font-size: 16px;
     font-style: normal;
@@ -143,8 +141,8 @@ margin-right: 76px;
     left: 0;
     bottom: -1px;
     height: 4px;
-    background-color: #404bbf;
     border-radius: 2px;
+    background-color: #404bbf;
 }
 .header-link:focus {
     color: #404BBF;
@@ -173,6 +171,8 @@ color: #404BBF;
 
 
 /* HERO SECTION */
+
+
 
 .section-hero{
     background-color:#2e2f42;
@@ -228,6 +228,11 @@ button:focus {
 
 /* OUR BENEFITS */
 
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .list-benefits {
     display: flex;
 }
@@ -299,7 +304,6 @@ button:focus {
     align-items: center;
     justify-content: center;
     margin-top: 8px;
-    
     background-color: #4d5ae5;
 }
 .media-a:hover,
@@ -369,9 +373,11 @@ button:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    cursor: pointer;
 }
 .portfolio:hover .overlay {
     transform: translateY(0%);
+    
 }
 .div-images {
     position: relative;
@@ -400,12 +406,14 @@ button:focus {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #f4f4fd;
+    
 }
 .portfolio-div {
     padding: 32px 16px;
     border: 1px solid  #E7E9FC;
     background-color:  #FFF;
     border-top: 0;
+    
 }
 
 
@@ -415,6 +423,11 @@ button:focus {
 .footer{
     background-color:#2e2f42;
     padding: 100px 0;
+    
+}
+.footer-flex {
+    display: flex;
+
 }
 .logotype {
     font-family: "Raleway", sans-serif;
@@ -442,7 +455,8 @@ button:focus {
 }
 
 .div-f {
-    margin-right: 120px
+    margin-right: 120px;
+    
 }
 .div-p-f {
     font-weight: 500;
@@ -471,10 +485,6 @@ button:focus {
     justify-content: center;
     
 }
-.media-svg {
-    width: 24;
-    height: 24;
-}
 
 .footer-p {
     font-family: Roboto;
@@ -484,4 +494,8 @@ button:focus {
     letter-spacing: 0.02em;
     color:#F4F4FD;
     width: 264px;
+}
+.div-footer {
+    display: flex;
+        align-items: baseline;
 }
