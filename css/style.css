@@ -142,7 +142,7 @@ margin-right: 76px;
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
-    background-color: #404bbf;
+    background-color:#404bbf;
 }
 .header-link:focus {
     color: #404BBF;
@@ -181,8 +181,6 @@ color: #404BBF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
-    
 }
 .hero-title{
     text-align: center;
@@ -244,6 +242,8 @@ button:focus {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    width: 100%;
+    margin: 0 auto;
 }
 .strategy {
     font-family: Roboto;
@@ -252,6 +252,7 @@ button:focus {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 8px;
     margin-bottom: 8px;
     color:#2E2F42;
 }
@@ -310,9 +311,7 @@ button:focus {
 .media-a:focus {
     background-color: #404bbf;
 }
-.media-svg {
-    fill:#f4f4fd;
-}
+
 .team {
     text-align: center;
     font-family: Roboto;
@@ -457,6 +456,9 @@ button:focus {
 .div-f {
     margin-right: 120px;
     
+}
+.div-f-media {
+    margin-right: 692px;
 }
 .div-p-f {
     font-weight: 500;
