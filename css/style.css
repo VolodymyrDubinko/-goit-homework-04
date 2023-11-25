@@ -181,6 +181,7 @@ color: #404BBF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
 }
 .hero-title{
     text-align: center;
@@ -279,6 +280,11 @@ button:focus {
     display: flex;
     gap: 24px;
 }
+.team-itam {
+    box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08)
+}
 .div-team {
     padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
@@ -306,9 +312,11 @@ button:focus {
     justify-content: center;
     margin-top: 8px;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media-a:hover,
 .media-a:focus {
+    width: 100%;
     background-color: #404bbf;
 }
 .media-svg {
@@ -385,6 +393,9 @@ button:focus {
     position: relative;
     overflow: hidden;
 }
+.li-portfolio-section {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .li-portfolio-section :hover .div-p {
     transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -425,12 +436,11 @@ button:focus {
 .footer{
     background-color:#2e2f42;
     padding: 100px 0;
-    
 }
 .footer-flex {
     align-items: baseline;
     display: flex;
-
+    align-items: baseline;
 }
 .logotype {
     font-family: "Raleway", sans-serif;
@@ -500,7 +510,6 @@ button:focus {
     align-items: center;
     justify-content: center;
     background-color: #31d0aa;
-    
 }
 
 .media-svg-f {
