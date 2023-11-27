@@ -48,7 +48,6 @@ button{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: space-between;
 }
 
 
@@ -81,6 +80,7 @@ background-color: #FFFFFF;
 .page-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .logotype {
     text-decoration: none;
@@ -312,7 +312,7 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
+    
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -350,7 +350,7 @@ button:focus {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
     color: #2e2f42;
 }
@@ -390,7 +390,9 @@ button:focus {
 }
 .li-portfolio-section:hover .div-p {
     transform: translateY(0%);
+    
 }
+
 
 .div-images {
     position: relative;
